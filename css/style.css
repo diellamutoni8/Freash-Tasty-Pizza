@@ -72,7 +72,7 @@ body {
     font-family: 'Permanent Marker', cursive;
 }
 #main p{
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     padding-bottom: 10px;
     font-family: 'Permanent Marker', cursive;
@@ -87,7 +87,7 @@ text-decoration: none;
 text-align: center;
 }
 #ourTeam {
-    background-color:  rgb(26, 24, 24);
+    background-color:  rgb(20, 11, 5);
     color: blanchedalmond;
     text-align: center;
     padding-left: 15%;
@@ -99,7 +99,7 @@ span {
 }
 #team {
     color: blanchedalmond;
-    background-color: rgb(26, 24, 24);
+    background-color:rgb(20, 11, 5);
     padding-bottom: 1%;
 }
 #team h2 {
