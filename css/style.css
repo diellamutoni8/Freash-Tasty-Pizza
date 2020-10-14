@@ -124,7 +124,7 @@
   }
   }
   body{
-      background-image: url('../pictures//77.jpg');
+      
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center center;
@@ -230,11 +230,18 @@ body {
 
 #about img{
     border-radius: 50%;
+    opacity: .1;
+    width: 80px;
 }
 #about h1{
     padding: 20px;
     margin: 20px;
+    font-size: large;
 }
+#about p{
+  font-size: small;
+}
+
 .text-center{
     text-align: center;
 }
