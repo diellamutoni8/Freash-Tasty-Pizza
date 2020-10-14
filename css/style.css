@@ -87,8 +87,14 @@ body {
     padding: 0;
 
 }
-#about{
-text-align: center;
+
+#about img{
+    border-radius: 50%;
+}
+
+
+.mission{
+    float: right;
 }
 #ourTeam {
     background-color:  rgb(26, 24, 24);
