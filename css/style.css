@@ -1,4 +1,7 @@
-
+body {
+    margin: 0;
+    padding: 0;
+}
 #nav{
     position: absolute;
     z-index: 5;
@@ -7,7 +10,6 @@
 .navbar{
     padding: 5px 0;
 }
-
 .navbar-brand{
     font-weight: bolder;
     font-size: 30px;
@@ -31,7 +33,7 @@
     padding-left: 20px;
     font-size: 20px;
     color: white;
-    
+
 }
 .nav-link:hover{
     color: tomato;
@@ -62,7 +64,6 @@
     background-color: black;
     opacity: .7;
     z-index: -1;
-   
 }
 #main h1{
     font-size: 45px;
@@ -71,7 +72,7 @@
     font-family: 'Permanent Marker', cursive;
 }
 #main p{
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     padding-bottom: 10px;
     font-family: 'Permanent Marker', cursive;
@@ -82,6 +83,7 @@ border: 10px solid tomato;
 background-color: tomato;
 text-decoration: none;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -101,9 +103,9 @@ body {
 
 .mission{
     float: right;
-}
+
 #ourTeam {
-    background-color:  rgb(26, 24, 24);
+    background-color:  rgb(20, 11, 5);
     color: blanchedalmond;
     text-align: center;
     padding-left: 15%;
@@ -115,7 +117,7 @@ span {
 }
 #team {
     color: blanchedalmond;
-    background-color: rgb(26, 24, 24);
+    background-color:rgb(20, 11, 5);
     padding-bottom: 1%;
 }
 #team h2 {
