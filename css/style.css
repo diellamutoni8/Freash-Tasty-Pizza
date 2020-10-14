@@ -1,3 +1,30 @@
 #about{
 text-align: center;
 }
+#ourTeam {
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+#team {
+    color: blanchedalmond;
+    background-color: black;
+    padding-bottom: 3%;
+}
+#team h2 {
+    text-align: center;
+}
+
+
+.oneCard {
+    position: relative;
+    overflow: auto;
+  }
+  .oneCard img{
+      width: 100%;
+      height:auto;
+      border-radius: 50%;
+  }
