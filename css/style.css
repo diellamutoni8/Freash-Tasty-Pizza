@@ -1,3 +1,4 @@
+
 #nav{
     position: absolute;
     z-index: 5;
@@ -81,6 +82,48 @@ border: 10px solid tomato;
 background-color: tomato;
 text-decoration: none;
 }
+body {
+    margin: 0;
+    padding: 0;
+
+}
 #about{
 text-align: center;
 }
+#ourTeam {
+    background-color:  rgb(26, 24, 24);
+    color: blanchedalmond;
+    text-align: center;
+    padding-left: 15%;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+span {
+    color: darkred;
+}
+#team {
+    color: blanchedalmond;
+    background-color: rgb(26, 24, 24);
+    padding-bottom: 1%;
+}
+#team h2 {
+    padding-top: 1%;
+    padding-left: 15%;
+}
+
+.oneCard {
+    position: relative;
+    overflow: auto;
+  }
+  .oneCard img{
+      width: 100%;
+      height:auto;
+      border-radius: 50%;
+  }
+  #vid {
+      text-align: center;
+      padding-top: 2%;
+      margin-top: 2%;
+      background-image: url("https://wallpapercave.com/wp/wc1813154.jpg");
+      background-size: cover;
+  }
