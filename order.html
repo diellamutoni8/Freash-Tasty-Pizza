@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/mdb.min.css">
+
+</head>
+<body >
+
+    <div class="div6 " id="make-order">
+        <div class="order-overlay">
+            <div class="controls-top text-center" id="Order-now">
+                <h2>Welcome To Fresh Tasty Pizza </h2>
+            </div>
+            <h2>Please Make order We will deliver to you in few minutes</h2>
+            <div class="row">
+                <div class="col-sm-5">
+                    <form action="">
+                        <label for="select">List Of The pizza Get Your Favorite One</label>
+                        <select class="browser-default custom-select custom-select-md mb-3 name" >
+
+
+                            <option value="Chicken &feta ">Chicken &feta Pizza</option>
+                            <option value="Margheritta Pizza"> Margheritta Pizza</option>
+                            <option value="Cherry Tomato Dessert Pizza">Cherry Tomato Pizza</option>
+                            <option value="Bacon  Pizza"> Bacon Pizza</option>
+                            <option value="Bangers Pizza">Bangers Pizza</option>
+                            <option value="Fresh Tomato Sticks">Fresh Tomato pizza</option>
+                        </select>
+                        <label for="select">which size Of The Pizza</label>
+                        <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                            <option selected value="0">Size of The Pizza </option>
+                            <option value="large">Large(15,000 RWF)</option>
+                            <option value="medium">Medium(10,000 RWF)</option>
+                            <option value="small">Small(5,000 RWF)</option>
+                        </select>
+                        <label for="crust">Which  Crust Of Pizza </label>
+                        <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                            <option selected value="0">Crust</option>
+                            <option value="Crispy">Crispy(5,000 RWF)</option>
+                            <option value="Stuffed">Stuffe(2,500 RWF)</option>
+                            <option value="Gluten-free">Gluten(1,500 RWF)</option>
+                        </select>
+                        <label for="Toppings"> Toppings for each 1000 RWF</label><br>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="cheese" value="cheese"
+                                name="toppings">
+                            <label class="custom-control-label" for="cheese">Cheese</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="meat" value="meat" name="toppings">
+                            <label class="custom-control-label" for="meat">Meat</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="sausage" value="sausage"
+                                name="toppings">
+                            <label class="custom-control-label" for="sausage">Sausage</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="pili" value="pili" name="toppings">
+                            <label class="custom-control-label" for="pili">PiliPili</label>
+                        </div>
+                        <div class="custom-control custom-checkbox custom-control-inline">
+                            <input type="checkbox" class="custom-control-input" id="oil" value="oil" name="toppings">
+                            <label class="custom-control-label" for="oil">Oil</label>
+                        </div>
+                        <br><br>
+                        <button type="submit" class="btn btn-dark order">Order</button>
+
+                    </form>
+                </div>
+                <div class="col-sm-7">
+                    <div id="about-us">
+                        <p>Your order will be processed and delivered within one hour of placing.</p>
+                        <p>Make sure you have the total amout for the order during order delivery delivery.</p>
+                        <p>Incase of any comment of complaint, Please reach out to us as fast as possible.</p>
+
+                    </div>
+                    <div class="make-choice">
+                        <h2>Your Order</h2>
+                        <div id="orders-lists">
+                            <table class="table table-sm  pizzatable">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Name Of Pizza</th>
+                                        <th scope="col">Size Of Pizza</th>
+                                        <th scope="col">Crust Of Pizza </th>
+                                        <th scope="col">Topping Of Pizza </th>
+                                        <th scope="col">Total Money</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="ordersmade">
+                                    <tr>
+                                        <td id="nameofpizza"></td>
+                                        <td id="sizeofpizza"></td>
+                                        <td id="crustofpizza"></td>
+                                        <td id="toppingofpizza"></td>
+                                        <td id="totalmoney"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p id="pizzatotal"></p>
+                            <p id="bill"></p>
+                            <p id="price">Delivery will be at 2000 RWF</p>
+                            <p id="message"></p>
+                        </div>
+                        <button class="btn btn-dark addPizza">Add Another One</button>
+                        <button class="btn btn-dark" id="checkout">Check The Bill</button>
+                        <button class="btn btn-dark deliver">Your House</button>
+                    </div>
+                    <div class="delivery">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                                <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                                <input type="text" id="location" class="form-control mb-3"
+                                    placeholder="Location for delivery">
+                                <button class="btn btn-dark" id="final-order">your Location</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascript/bootstrap.min.js"></script>
+    <script src="javascript/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
