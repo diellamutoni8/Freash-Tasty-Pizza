@@ -1,6 +1,91 @@
+
+#nav{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+}
+.navbar{
+    padding: 5px 0;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 30px;
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.navbar-brand span{
+    color: tomato;
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+}
+.navbar-dark .navbar-brand{
+    color: #dcdde1;
+}
+.nav-link{
+    font-weight: bolder;
+    padding-left: 20px;
+    font-size: 20px;
+    color: white;
+    
+}
+.nav-link:hover{
+    color: tomato;
+    border-radius: 1px;
+}
+.active a{
+  color: tomato;
+}
+.active a:hover{
+    color: white;
+}
+#main{
+    position: relative;
+    background: url("https://cdn.hipwallpaper.com/i/70/10/7u9Zg8.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 220px 0;
+    text-align: center;
+    z-index: 1;
+}
+#main::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+   
+}
+#main h1{
+    font-size: 45px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Permanent Marker', cursive;
+}
+#main p{
+    font-size: 35px;
+    color: white;
+    padding-bottom: 10px;
+    font-family: 'Permanent Marker', cursive;
+}
+#main a{
+color: white;
+border: 10px solid tomato;
+background-color: tomato;
+text-decoration: none;
+}
 body {
     margin: 0;
     padding: 0;
+
 }
 #about{
 text-align: center;
