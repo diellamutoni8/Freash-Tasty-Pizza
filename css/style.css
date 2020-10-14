@@ -83,9 +83,27 @@ border: 10px solid tomato;
 background-color: tomato;
 text-decoration: none;
 }
-#about{
-text-align: center;
+
+body {
+    margin: 0;
+    padding: 0;
+
 }
+
+#about img{
+    border-radius: 50%;
+}
+#about h1{
+    padding: 20px;
+    margin: 20px;
+}
+.text-center{
+    text-align: center;
+}
+
+.mission{
+    float: right;
+
 #ourTeam {
     background-color:  rgb(20, 11, 5);
     color: blanchedalmond;
