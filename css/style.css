@@ -186,7 +186,8 @@ body {
     position: relative;
     background: url("https://cdn.hipwallpaper.com/i/70/10/7u9Zg8.jpg");
     background-size: cover;
-    background-position: center;
+    padding-left: 50px;
+    padding-right: 50px;
     padding: 220px 0;
     text-align: center;
     z-index: 1;
@@ -232,6 +233,7 @@ body {
     border-radius: 50%;
     opacity: .1;
     width: 80px;
+    padding-bottom: 80px;
 }
 #about h1{
     padding: 20px;
@@ -266,23 +268,66 @@ span {
     padding-bottom: 1%;
 }
 #team h2 {
-    padding-top: 1%;
+    padding-top: 100px;
     padding-left: 15%;
+    font-weight: bolder;
+
+  
 }
 
 .oneCard {
     position: relative;
     overflow: auto;
+    
   }
   .oneCard img{
       width: 100%;
       height:auto;
       border-radius: 50%;
+      
   }
   #vid {
       text-align: center;
       padding-top: 2%;
-      margin-top: 2%;
+      /* margin-top: 2%; */
       background-image: url("https://wallpapercave.com/wp/wc1813154.jpg");
       background-size: cover;
   }
+#recipe{
+  padding-top: 50px;
+  background-color: rgb(7, 6, 6);
+  padding-bottom: 80px;
+  
+
+}
+#recipe h1{
+  color: white;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+.row mt-4{
+  padding-bottom: 30px;
+}
+.card-body{
+  background-color: rgb(218, 195, 162);
+}
+#order{
+  background: url("../pictures/pizza6.jpg           ");
+  background-size: cover;
+  background-position: center;
+}
+#Order-now h2{
+  padding-top: 30px;
+
+}
+#order::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .5;
+  z-index: -1;
+}
