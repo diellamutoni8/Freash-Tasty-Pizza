@@ -1,7 +1,144 @@
+
+.div6 h2{
+    text-align: center;
+    color:whitesmoke;
+    font-weight: 900;
+    
+    
+  }
+  #pizza{
+    padding-top: 30px;
+  }
+  .order-overlay{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 20px;
+    padding-left: 6%;
+    font-size: medium;
+    overflow-x: hidden;
+    height: 100%;
+    scroll-behavior: auto;
+    font-family: cursive;
+  }
+ html{
+     scroll-behavior: smooth;
+ }
+
+   form{
+      color:white;
+      font-weight: 900;
+  }
+  .make-choice{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .deliver{
+    display: none;
+  }
+  .delivery{
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  td,th{
+    font-size: 20px;
+    color:white;
+    font-weight: 900;
+  
+  }
+  .make-choice h2{
+    color:white;
+    text-align: left;
+    font-weight: 900;
+
+  }
+  #orders-lists{
+    color:white;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+ 
+  #price{
+    display: none;
+  }
+  #message{
+    display: none;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 28px;
+    color:white;
+    font-weight: 900;
+    
+  }
+  .name{
+      color:white;
+  }
+  
+  #about-us{
+    padding-top: 5%;
+    font-size: 22px;
+    padding-right: 8%;
+    padding-left: 5%;
+    color:white;
+    font-weight: bolder;
+  }
+  @media only screen and (max-width: 485px){
+    .flex-xs-column {
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .section {
+      padding-top: 30px;
+  }
+  .flex-xs-column {
+      flex-direction: column;
+  }
+  .order-overlay{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin: 10px;
+  }
+  .order h2{
+    text-align: center;
+    font-size: 20px;
+  }
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .text h5{
+    font-size: 20px;
+    padding: 20px;
+  }
+  #head{
+    padding-top: 30%;
+  }
+  .col-md-3{
+    padding-left: 20%;
+  }
+  }
+  body{
+      
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+     
+  }
+
+  
 body {
     margin: 0;
     padding: 0;
 }
+
 #nav{
     position: absolute;
     z-index: 5;
@@ -49,7 +186,8 @@ body {
     position: relative;
     background: url("https://cdn.hipwallpaper.com/i/70/10/7u9Zg8.jpg");
     background-size: cover;
-    background-position: center;
+    padding-left: 50px;
+    padding-right: 50px;
     padding: 220px 0;
     text-align: center;
     z-index: 1;
@@ -84,8 +222,35 @@ border: 10px solid tomato;
 background-color: tomato;
 text-decoration: none;
 }
-#about{
-text-align: center;
+
+body {
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+#about img{
+    border-radius: 50%;
+    opacity: .1;
+    width: 80px;
+    padding-bottom: 80px;
+}
+#about h1{
+    padding: 20px;
+    margin: 20px;
+    font-size: large;
+}
+#about p{
+  font-size: small;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mission{
+    float: right;
 }
 #ourTeam {
     background-color:  rgb(20, 11, 5);
@@ -104,23 +269,70 @@ span {
     padding-bottom: 1%;
 }
 #team h2 {
-    padding-top: 1%;
+    padding-top: 100px;
     padding-left: 15%;
+    font-weight: bolder;
+
+  
 }
 
 .oneCard {
     position: relative;
     overflow: auto;
+    
   }
   .oneCard img{
       width: 100%;
       height:auto;
       border-radius: 50%;
+      
   }
   #vid {
       text-align: center;
       padding-top: 2%;
+<<<<<<< HEAD
     
+=======
+      /* margin-top: 2%; */
+>>>>>>> 007cd10e69920efc9364918e8a742b49ebd48e5d
       background-image: url("https://wallpapercave.com/wp/wc1813154.jpg");
       background-size: cover;
   }
+#recipe{
+  padding-top: 50px;
+  background-color: rgb(7, 6, 6);
+  padding-bottom: 80px;
+  
+
+}
+#recipe h1{
+  color: white;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+.row mt-4{
+  padding-bottom: 30px;
+}
+.card-body{
+  background-color: rgb(218, 195, 162);
+}
+#order{
+  background: url("../pictures/pizza6.jpg           ");
+  background-size: cover;
+  background-position: center;
+}
+#Order-now h2{
+  padding-top: 30px;
+
+}
+#order::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .5;
+  z-index: -1;
+}

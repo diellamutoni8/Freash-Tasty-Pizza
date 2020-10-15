@@ -5,16 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fresh & Tasty Pizza</title>
-  <title>Fresh & Tasty Pizza</title>
   <link href="bootstrap.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link href="css/style.css" rel="stylesheet" type="text/css">
-  <title>Fresh & Tasty Pizza</title>
-  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
 
 </head>
-
 <body>
   <section id="nav">
     <div class="container-fluid">
@@ -25,16 +22,16 @@
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Team</a>
+            <a class="nav-link" href="#team">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Recipes</a>
+            <a class="nav-link" href="#rec">Recipes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Order</a>
+            <a class="nav-link" href="order.html">Order</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -42,7 +39,6 @@
         </ul>
       </nav>
     </div>
-  </section>
   </section>
   <section id="main">
     <div class="container">
@@ -60,47 +56,37 @@
   <section>
     <div class="container">
       <div id="about">
-        <h1><strong><em>ABOUT US</em></strong></h1>
-        <div class="aboutt">
-          <p>
-            <em>Fresh & Tasty Pizza</em> prides itself on this rich tradition of mouth-water pizza and superior
-            service.<br>
-            At <em>Fresh & Tasty Pizza</em> pleasing the customer comes first.<em>Fresh & Tasty Pizza</em> is motivated
-            by the quality and taste of the product it serves.<br>
-            <em>Fresh & Tasty Pizza</em> makes a commitment to our customers to never “cost-cut” quality.<br>
-            <br>
-            Come to <em>Fresh & Tasty Pizza</em> and we’ll make you the freshest, best-tasting, highest quality pizza
-            you’ll ever eat…<br>
-            every time you walk through our door. And we promise once you eat our pizza; you’ll never go anywhere else.
-            <br>
-            <em>Fresh & Tasty Pizza</em> an international award winning “pizza treasure”… right here in Rwanda.<br>
-            <br>
-            Oh, and don’t forget, the same amazing <em>Fresh & Tasty Pizza</em> can be delivered too.
-          </p>
-        </div>
-        <div class="mission">
-          <h1><strong><em>OUR MISSION & VISION</em></strong></h1>
-          <p>
-            <strong><em>"Our mission. To become the best neighborhood pizzeria by
-                elevating everything we do from good to great."
-              </em>
-            </strong>
-          </p>
 
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="text-center "><strong><em>ABOUT US</em></strong></h1>
+            <div class="aboutt">
+              <img src="pictures/images.png" style='float:left;'>
+              <p>
+                <em>Fresh & Tasty Pizza</em> prides itself on this rich tradition of mouth-water pizza and superior
+                service.<br>
+                At <em>Fresh & Tasty Pizza</em> pleasing the customer comes first.<br>
+                <em>Fresh & Tasty Pizza</em> is motivated by the quality and taste of the product it serves.<br>
+                <em>Fresh & Tasty Pizza</em> makes a commitment to our customers to never “cost-cut” quality.
+                <br>
+                Oh, and don’t forget, the same amazing <em>Fresh & Tasty Pizza</em> can be delivered too.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="mission">
+              <h1 class="text-center "><strong><em>OUR MISSION & VISION</em></strong></h1>
+              <img src="pictures/images.png" style='float:left;'>
+              <p>
+                <strong><em>"Our mission. To become the best neighborhood pizzeria by
+                    elevating everything we do from good to great."</em>
+                  </strong>
+              </p>
+            </div>
+          </div>
         </div>
 
-
-        <div class="mission">
-          <h1><strong><em>OUR MISSION & VISION</em></strong></h1>
-          <p>
-            <strong><em>"Our mission. To become the best neighborhood pizzeria by
-                elevating everything we do from good to great."
-              </em>
-            </strong>
-          </p>
-        </div>
       </div>
-    </div>
   </section>
   <div class="container" id="team">
     <h2>Our Team <span>/</span></h2>
@@ -110,6 +96,7 @@
       <div class=" col-sm-2" id="a">
         <div class="card oneCard">
           <img id="porty" src="pictures/diella.jpeg" alt="">
+
         </div>
         <div id="txt1" class="card-text txt">
           <p>Diella Mutoni</p>
@@ -154,58 +141,63 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <div class="px-5 mx-5">
-      <h1>Our Recipes</h1>
-      <div class="row">
-        <div class="col card mx-2 px-0" id="p1">
-          <img src="./pictures//pizza1.jpg" class="card-img-top" alt="pizza1">
-          <div class="card-body">
-            Chicken & feta
+  <section  id="rec">
+    <div class="container" id="recipe">
+      <div class="px-5 mx-5">
+        <h1>Our Recipes<span>/</span></h1>
+        <div class="row">
+          <div class="col card mx-2 px-0" id="p1">
+            <img src="./pictures//pizza1.jpg" class="card-img-top" alt="pizza1">
+            <div class="card-body">
+              Chicken & feta
+            </div>
           </div>
-        </div>
-        <div>
-        </div>
-        <div class="col card mx-2 px-0">
-          <img src="./pictures//pizza2.jpg" class="card-img-top" alt="pizza2">
-          <div class="card-body">
-            Cherry Tomato
+          <div>
           </div>
-        </div>
-        <div class="col card mx-2  px-0">
-          <img src="./pictures//pizza3.jpg" class="card-img-top" alt="pizza3">
-          <div class="card-body">
-            Double Bacon
+          <div class="col card mx-2 px-0">
+            <img src="./pictures//pizza2.jpg" class="card-img-top" alt="pizza2">
+            <div class="card-body">
+              Cherry Tomato
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col card mx-2 px-0">
-          <img src="./pictures//pizza4.jpg" class="card-img-top" alt="pizza4">
-          <div class="card-body">
-            Bangers & Beefs
+          <div class="col card mx-2  px-0">
+            <img src="./pictures//pizza3.jpg" class="card-img-top" alt="pizza3">
+            <div class="card-body">
+              Double Bacon
+            </div>
           </div>
+
         </div>
-        <div class="col card mx-2 px-0">
-          <img src="./pictures//pizza5.jpg" class="card-img-top" alt="pizza5">
-          <div class="card-body">
-            Margheritta
+        <div class="row mt-4">
+          <div class="col card mx-2 px-0">
+            <img src="./pictures//pizza4.jpg" class="card-img-top" alt="pizza4">
+            <div class="card-body">
+              Bangers & Beefs
+            </div>
           </div>
-        </div>
-        <div class="col card mx-2 px-0">
-          <img src="./pictures//pizza6.jpg" class="card-img-top" alt="pizza6">
-          <div class="card-body">
-            Fresh Tomato
+          <div class="col card mx-2 px-0">
+            <img src="./pictures//pizza5.jpg" class="card-img-top" alt="pizza5">
+            <div class="card-body">
+              Margheritta
+            </div>
+          </div>
+          <div class="col card mx-2 px-0">
+            <img src="./pictures//pizza6.jpg" class="card-img-top" alt="pizza6">
+            <div class="card-body">
+              Fresh Tomato
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container" id="vid">
-    <video width="800" height="300" controls>
-      <source src="video/pizza.mp4" type="video/mp4">our work
-    </video>
-  </div>
+    <div class="container" id="vid">
+      <video width="800" height="300" controls>
+        <source src="video/pizza.mp4" type="video/mp4">our work
+      </video>
+    </div>
+  </section>
+
+
 
 </body>
 
