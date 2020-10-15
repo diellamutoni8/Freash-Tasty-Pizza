@@ -286,3 +286,76 @@ span {
       background-image: url("https://wallpapercave.com/wp/wc1813154.jpg");
       background-size: cover;
   }
+  .contactform{
+      padding-left: 20px;
+      float: left;
+    }
+    .messageus{
+   top: -300px;
+   float: right;
+   position: relative;
+   margin-top: 20px;
+   padding-right: 100px;
+   padding-top: -400px;
+   margin :10px;
+   }
+   .visitus{
+    text-align: left;
+    } 
+   .contact{
+    float: left;
+    
+   }
+   .schedule{
+    padding-top: 2px;
+   padding-left: 250px;
+   }
+   .staytouch{
+    padding-top: 10px;
+   padding-left: -200px;
+   padding-right: 700px;
+   float: left;
+   }
+
+   #name{
+   width: 300px; 
+   height: 30px;
+   padding-top: 5px; 
+   border-radius: 6px; 
+   border-bottom: 2px solid #c5ecfd;
+   }
+   #email{
+   width: 300px;
+   height: 30px;
+   margin-top: 8px;
+   border-radius: 6px; 
+   border-bottom: 2px solid #c5ecfd;
+   }
+   #messages{
+   width: 300px;
+   height: 100px;
+   margin-top: 2px;
+   border-radius: 6px; 
+   border-bottom: 2px solid #c5ecfd;
+   }
+   #submitbutton{
+   margin-top: 3px;
+   width: 80px;
+   height: 30px;
+   font-weight: 400;
+   color: white;
+   background: green;
+   border-radius: 6px; 
+   border-bottom: 2px solid #c5ecfd
+   }
+   .googlemap{
+   width: 70%;
+   padding-left: 160px;
+
+   }
+   #mapimage{
+   width: 600px;
+
+
+   }
+
