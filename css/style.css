@@ -53,6 +53,7 @@ body {
     padding: 220px 0;
     text-align: center;
     z-index: 1;
+  
 }
 #main::after{
     content: '';
