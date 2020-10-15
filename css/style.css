@@ -142,7 +142,7 @@ body {
 #nav{
     position: absolute;
     z-index: 5;
-    width: 100%;
+    width: 90%;
 }
 .navbar{
     padding: 5px 0;
@@ -185,6 +185,9 @@ body {
 #main{
     position: relative;
     background: url("https://cdn.hipwallpaper.com/i/70/10/7u9Zg8.jpg");
+
+    background-position: center;
+    background-size: cover;
     background-size: cover;
     padding-left: 50px;
     padding-right: 50px;
@@ -233,12 +236,15 @@ body {
 #about img{
     border-radius: 50%;
     opacity: .1;
+    height:150px;
+    width: 120px;
     width: 80px;
     padding-bottom: 80px;
+
 }
 #about h1{
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     font-size: large;
 }
 #about p{
@@ -298,6 +304,86 @@ span {
       background-image: url("https://wallpapercave.com/wp/wc1813154.jpg");
       background-size: cover;
   }
+
+  .contactform{
+      padding-left: 20px;
+      float: left;
+    }
+    .messageus{
+   top: -300px;
+   float: right;
+   position: relative;
+   margin-top: 20px;
+   padding-right: 100px;
+   padding-top: -400px;
+   margin :10px;
+   }
+   .visitus{
+    text-align: left;
+    } 
+   #contact{
+    float: left;
+    
+   }
+   .schedule{
+    padding-top: 2px;
+   padding-left: 250px;
+   }
+   .staytouch{
+    padding-top: 10px;
+   padding-left: -200px;
+   padding-right: 700px;
+   float: left;
+   }
+
+   #name{
+   width: 300px; 
+   height: 30px;
+   padding-top: 5px; 
+   border-radius: 6px; 
+   border-bottom: 2px solid #c5ecfd;
+   }
+   #email{
+   width: 300px;
+   height: 30px;
+   margin-top: 8px;
+   border-radius: 6px; 
+   border-bottom: 2px solid #c5ecfd;
+   }
+   #messages{
+   width: 300px;
+   height: 200px;
+   margin-top: 2px;
+   border-radius: 6px; 
+   border-bottom: 2px solid #c5ecfd;
+   }
+   #submitbutton{
+   margin-top: 3px;
+   width: 80px;
+   height: 30px;
+   font-weight: 400;
+   color: white;
+   
+   border-radius: 6px; 
+   border-bottom: 2px solid #c5ecfd
+   }
+   .googlemap{
+   width: 70%;
+   padding-left: 160px;
+
+   }
+   #mapimage{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   width: 800px;
+   }
+
+   #visit{
+     margin: 50px;
+   }
+
+
 #recipe{
   padding-top: 50px;
   background-color: rgb(7, 6, 6);
@@ -336,3 +422,4 @@ span {
   opacity: .5;
   z-index: -1;
 }
+
