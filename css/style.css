@@ -417,4 +417,33 @@ span {
   opacity: .5;
   z-index: -1;
 }
-
+.check h6{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+#cd ,#momoo {
+    padding-left: 30%;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.cardForm, #momoForm {
+    padding-left:30%;
+    padding-right: 30%;
+}
+#paybtn{
+   padding-left: 30px;
+   padding-right: 30px;
+   background-color: burlywood;
+ 
+}
+.check {
+    text-align: center;
+}
+#momo,#cardpay {
+    background-color:black;
+    color: blanchedalmond;
+    
+}
