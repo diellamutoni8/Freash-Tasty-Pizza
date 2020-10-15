@@ -194,6 +194,7 @@ body {
     padding: 220px 0;
     text-align: center;
     z-index: 1;
+  
 }
 #main::after{
     content: '';
@@ -295,7 +296,11 @@ span {
   #vid {
       text-align: center;
       padding-top: 2%;
+<<<<<<< HEAD
+    
+=======
       /* margin-top: 2%; */
+>>>>>>> 007cd10e69920efc9364918e8a742b49ebd48e5d
       background-image: url("https://wallpapercave.com/wp/wc1813154.jpg");
       background-size: cover;
   }
