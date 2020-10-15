@@ -3,8 +3,8 @@
     text-align: center;
     color:whitesmoke;
     font-weight: 900;
-    
-    
+
+
   }
   #pizza{
     padding-top: 30px;
@@ -45,7 +45,7 @@
     font-size: 20px;
     color:white;
     font-weight: 900;
-  
+
   }
   .make-choice h2{
     color:white;
@@ -59,7 +59,7 @@
     font-weight: 900;
   }
 
- 
+
   #price{
     display: none;
   }
@@ -71,12 +71,12 @@
     font-size: 28px;
     color:white;
     font-weight: 900;
-    
+
   }
   .name{
       color:white;
   }
-  
+
   #about-us{
     padding-top: 5%;
     font-size: 22px;
@@ -124,16 +124,16 @@
   }
   }
   body{
-      
+
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-     
+
   }
 
-  
+
 body {
     margin: 0;
     padding: 0;
@@ -225,7 +225,7 @@ text-decoration: none;
 body {
     padding: 0;
     margin: 0;
-    
+
 
 }
 
@@ -252,56 +252,53 @@ body {
     float: right;
 }
 #ourTeam {
-    background-color:  rgb(20, 11, 5);
+    background-color: rgb(26, 19, 14);
     color: blanchedalmond;
     text-align: center;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-top: 3%;
-    padding-bottom: 1%;
+    padding-bottom: 1px;
 }
 span {
     color: darkred;
 }
 #team {
     color: blanchedalmond;
-    background-color:rgb(20, 11, 5);
+    background-color:rgb(26, 19, 14);
     padding-bottom: 1%;
 }
 #team h2 {
-    padding-top: 100px;
-    padding-left: 15%;
+    padding-top: 5%;
+    padding-left: 10%;
     font-weight: bolder;
-
-  
 }
-
-.oneCard {
-    position: relative;
-    overflow: auto;
-    
-  }
-  .oneCard img{
-      width: 100%;
-      height:auto;
-      border-radius: 50%;
-      
-  }
+.col-sm-2 {
+  margin: 5px;
+  padding-bottom: 50px;
+}
+.col-sm-2:hover img {
+  transform: scale(1.2);
+}
+.col-sm-2 img {
+  width:120px;
+  border-radius: 50%;
+}
   #vid {
       text-align: center;
       padding-top: 2%;
-      /* margin-top: 2%; */
-      background-image: url("https://wallpapercave.com/wp/wc1813154.jpg");
+      background-image: url("https://img5.goodfon.com/wallpaper/nbig/d/64/spetsii-pitstsy-syr-pomidory-cherri-vino-bazilik.jpg");
       background-size: cover;
+      background-repeat: no-repeat;
   }
 #recipe{
   padding-top: 50px;
   background-color: rgb(7, 6, 6);
   padding-bottom: 80px;
-  
+
 
 }
-#recipe h1{
-  color: white;
+#recipe h2{
+  color: blanchedalmond;
   padding-bottom: 20px;
   font-weight: bolder;
 }
@@ -312,7 +309,7 @@ span {
   background-color: rgb(218, 195, 162);
 }
 #order{
-  background: url("../pictures/pizza6.jpg           ");
+  background: url("../pictures/pizza6.jpg ");
   background-size: cover;
   background-position: center;
 }
@@ -330,4 +327,7 @@ span {
   background-color: black;
   opacity: .5;
   z-index: -1;
+}
+footer {
+  background-color: rgb(26, 19, 14);
 }
