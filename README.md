@@ -1,11 +1,11 @@
 # Fresh-Tasty-Pizza
 ## Authors
 
-[UmutoniSandrine]
-[IrabrutaPascaline]
-[charity Toni]
-[Diella Mutoni]
-[Nicet]
+**Diella Mutoni**
+* **UmutoniSandrine**
+* **charity Mutoni**
+* **Irabruta Pascy**
+* **Ntwali Nicet**
 
 
 
@@ -28,9 +28,9 @@ This is a web application for Fresh-Tasty-Pizza] which is a pizza selling ventur
 
 ## Screen shot
 
-![pizza](https://user-images.githubusercontent.com/62019551/79913084-b1393d00-842b-11ea-8141-ed8d1b45e8b2.png)
+# <img src ="hhttps://github.com/diellamutoni8/Fresh-Tasty-Pizza/blob/master/home.png" width=300px height=300px>
 
-![order](https://user-images.githubusercontent.com/62019551/79910305-235b5300-8427-11ea-9914-72bca5b23f0f.png)
+# <img src ="hhttps://github.com/diellamutoni8/Fresh-Tasty-Pizza/blob/master/order.png" width=300px height=300px>
 
 
 
