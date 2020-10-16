@@ -152,21 +152,21 @@ $(document).ready(function(){
     });
 
     
-    $("#momo").click(function(){
+    $("#momo").click(function () {
       $("#momoForm").show();
       $(".cardForm").hide();
- });
+    });
 
- $("#cardpay").click(function(){
+    $("#cardpay").click(function () {
       $(".cardForm").show();
       $("#momoForm").hide();
- });
- $("#momoForm").submit(function(){
-  alert("Your payment is in process. Thank you  for choosing Fresh&Tasty Pizza");
-});
-$(".cardForm").submit(function(){
-  alert("Your payment is in process. Thank you  for choosing Fresh&Tasty Pizza");
-});
+    });
+    $("#momoForm").submit(function () {
+      alert("Your payment is in process. Thank you  for choosing Fresh&Tasty Pizza");
+    });
+    $(".cardForm").submit(function () {
+      alert("Your payment is in process. Thank you  for choosing Fresh&Tasty Pizza");
+    });
 
     $("button.deliver").click(function(){
       $(".pizzatable").hide();
@@ -207,4 +207,4 @@ $(".cardForm").submit(function(){
    event.preventDefault();
    });
   });
-  
+
