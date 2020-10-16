@@ -132,7 +132,9 @@ body {
 #nav{
     position: absolute;
     z-index: 5;
-    width: 90%;
+    width: 94%;
+    padding-left: 45px;
+    margin-left: 1%;
 }
 .navbar{
     padding: 5px 0;
@@ -371,10 +373,11 @@ span {
   background-color: rgb(218, 195, 162);
 }
 #order{
-  background: url("../pictures/pizza6.jpg ");
+  background: url("https://c0.wallpaperflare.com/preview/436/87/720/artesanal-pizza-cheese-close-up-crust.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
   background-position: center;
-  
 }
 #Order-now h2{
   padding-top: 30px;
@@ -388,7 +391,7 @@ span {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: .5;
+  opacity: .9;
   z-index: -1;
 }
 .check h6{
@@ -411,7 +414,7 @@ span {
    padding-left: 30px;
    padding-right: 30px;
    background-color: burlywood;
- 
+
 }
 .check {
     text-align: center;
@@ -420,7 +423,7 @@ span {
     background-color:black;
     color: blanchedalmond;
     opacity: .8;
-    
+
 }
 @keyframes slide{
     0%{
