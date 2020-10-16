@@ -376,8 +376,10 @@ span {
   background: url("https://c0.wallpaperflare.com/preview/436/87/720/artesanal-pizza-cheese-close-up-crust.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 1;
   background-position: center;
+  background-color: black;
+  opacity: 0.9;
+    z-index: -9;
 }
 #Order-now h2{
   padding-top: 30px;
@@ -428,6 +430,15 @@ span {
 @keyframes slide{
     0%{
     background-image: url("https://cdn.hipwallpaper.com/i/70/10/7u9Zg8.jpg");
+    }
+    0.1%{
+      background-image: url("https://3.bp.blogspot.com/-DYDzOymPQSA/XIW4TsE7ZQI/AAAAAAAAHzw/mulRYiNTrvov-gN7Eu-45K4UDBltRvmsQCHMYCw/s1600/italian-food-images-pizza-pie-hd-wallpaper-and-background-photos.jpg");
+    }
+    10% {
+      background-image: url("https://www.cse.iitd.ac.in/~cs1120261/brso.jpg");
+    }
+    10.1% {
+      background-image: url("https://images.wallpaperscraft.com/image/pizza_batch_knife_fork_20903_300x168.jpg");
     }
     20%{
 
