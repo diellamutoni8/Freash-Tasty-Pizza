@@ -377,7 +377,7 @@ span {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1;
-  /* background-position: center; */
+  background-position: center;
 }
 #Order-now h2{
   padding-top: 30px;
@@ -422,6 +422,7 @@ span {
 #momo,#cardpay {
     background-color:black;
     color: blanchedalmond;
+    opacity: .8;
 
 }
 @keyframes slide{

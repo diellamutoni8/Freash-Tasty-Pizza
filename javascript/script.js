@@ -17,7 +17,7 @@ $(document).ready(function(){
    var psize = $("#size option:selected").val();
    var pcrust = $("#crust option:selected").val();
    var ptopping = [];
-   $.each($("input[name='toppings']:checked"), function(){
+   $.each($("input[name='toppings']:checked"), function(){            
        ptopping.push($(this).val());
    });
    console.log(ptopping.join(", "));
@@ -38,7 +38,7 @@ $(document).ready(function(){
        price = 5000;
        console.log(price);
      default:
-       console.log("error");
+       console.log("error"); 
    }
    switch(pcrust){
       case "0":
@@ -54,7 +54,7 @@ $(document).ready(function(){
         crust_price = 1800;
       break;
       default:
-        console.log("No price");
+        console.log("No price"); 
     }
     var topping_value = ptopping.length*1000;
     console.log("toppins value" + topping_value);
@@ -64,7 +64,7 @@ $(document).ready(function(){
       $("button.order").show();
       $("#about-us").show();
       $("div.make-choice").hide();
-      alert("Please select pizza size and crust");
+      alert("Please select pizza size and crust"); 
     }
     else{
       $("button.order").hide();
@@ -82,13 +82,13 @@ $(document).ready(function(){
     $("#crustofpizza").html($("#crust option:selected").val());
     $("#toppingofpizza").html(ptopping.join(", "));
     $("#totals").html(total);
-
+    
     $("button.addPizza").click(function(){
       let pname = $(".name option:selected").val();
       let psize = $("#size option:selected").val();
       let pcrust = $("#crust option:selected").val();
       let ptopping = [];
-      $.each($("input[name='toppings']:checked"), function(){
+      $.each($("input[name='toppings']:checked"), function(){            
           ptopping.push($(this).val());
       });
       console.log(ptopping.join(", "));
@@ -108,7 +108,7 @@ $(document).ready(function(){
            price = 10000;
            console.log(price);
          default:
-           console.log("error");
+           console.log("error"); 
        }
        switch(pcrust){
           case "0":
@@ -124,7 +124,7 @@ $(document).ready(function(){
             crust_price = 5000;
           break;
           default:
-            console.log("No price");
+            console.log("No price"); 
         }
         var topping_value = ptopping.length*1000;
         console.log("toppins value" + topping_value);
@@ -137,33 +137,21 @@ $(document).ready(function(){
 
       $("#ordersmade").append('<tr><td id="pizzaname">'+newOrder.name +'</td><td id="pizzasize">' + newOrder.size + '</td><td id="pizzacrust">'+newOrder.crust + '</td><td id="pizzatopping">'+newOrder.topping+'</td><td id="totals">'+newOrder.total+'</td></tr>');
       console.log(newOrder);
-
-
+      
+      
 
     });
-
-    $("button#checkout").click(function(){
+    
+    $("button#checkout").click(function () {
       $("button#checkout").hide();
       $("button.addPizza").hide();
       $("button.deliver").slideDown(500);
       $("#price").slideDown(1000);
-      console.log("Your total bills is RWF. "+checkoutTotal);
-      $("#pizzatotal").append("Your bill is RWF. "+checkoutTotal);
+      console.log("Your total bills is RWF. " + checkoutTotal);
+      $("#pizzatotal").append("Your bill is RWF. " + checkoutTotal);
     });
 
-    $("button.deliver").click(function(){
-      $(".pizzatable").hide();
-      $(".make-order h2").hide();
-      $(".delivery").slideDown(500);
-      $("#price").hide();
-      $("button.deliver").hide();
-      $("#pizzatotal").hide();
-      var deliceryamount= checkoutTotal+2000;
-      console.log("You will pay RWF. "+deliceryamount+" on delivery");
-      $("#bill").append("Your bill plus delivery fee is: "+deliceryamount);
-    });
-
-
+    
     $("#momo").click(function () {
       $("#momoForm").show();
       $(".cardForm").hide();
@@ -180,6 +168,18 @@ $(document).ready(function(){
       alert("Your payment is in process. Thank you  for choosing Fresh&Tasty Pizza");
     });
 
+    $("button.deliver").click(function(){
+      $(".pizzatable").hide();
+      $(".make-order h2").hide();
+      $(".delivery").slideDown(500);
+      $("#price").hide();
+      $("button.deliver").hide();
+      $("#pizzatotal").hide();
+      var deliceryamount= checkoutTotal+2000;
+      console.log("You will pay RWF. "+deliceryamount+" on delivery");
+      $("#bill").append("Your bill plus delivery fee is: "+deliceryamount);
+    });
+
     $("button#final-order").click(function(event){
       event.preventDefault();
 
@@ -191,21 +191,20 @@ $(document).ready(function(){
       var person = $("input#name").val();
       var phone = $("input#phone").val();
       var location = $("input#location").val();
-      if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
-      if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!="" && $("#momoForm :input").val()!=""){
+
+      if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""&& $("#momoForm :input").val()!=""){
+  
         $("#message").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare  "+deliceryamount+" RWF");
         $("#bill").hide();
         $("#message").slideDown(1000);
       }
       else {
-        alert("Kindly choose your payment method");
+        alert("Kindly choose your payment method ");
         $(".delivery").show();
         $("button#final-order").show();
       }
     });
    event.preventDefault();
+   });
   });
-  $("#submitbutton").click(function(){
-    alert("Thank you for contacting us!");
-  });
-});
+
