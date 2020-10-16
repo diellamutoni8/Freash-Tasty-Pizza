@@ -205,5 +205,6 @@ $(".cardForm").submit(function(){
       }
     });
    event.preventDefault();
+   });
   });
-});
+  
