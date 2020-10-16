@@ -204,8 +204,5 @@ $(document).ready(function(){
       }
     });
    event.preventDefault();
+   });
   });
-  $("#submitbutton").click(function(){
-    alert("Thank you for contacting us!");
-  });
-});
