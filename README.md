@@ -1,7 +1,7 @@
 # Fresh-Tasty-Pizza
 ## Authors
 
-**Diella Mutoni**
+* **Diella Mutoni**
 * **UmutoniSandrine**
 * **charity Mutoni**
 * **Irabruta Pascy**
@@ -25,12 +25,6 @@ This is a web application for Fresh-Tasty-Pizza] which is a pizza selling ventur
 * code . or atom . depending on the text editor of your choise.
 
 * Use browser of your choice.
-
-## Screen shot
-
-# <img src ="hhttps://github.com/diellamutoni8/Fresh-Tasty-Pizza/blob/master/home.png" width=300px height=300px>
-
-# <img src ="hhttps://github.com/diellamutoni8/Fresh-Tasty-Pizza/blob/master/order.png" width=300px height=300px>
 
 
 
