@@ -142,14 +142,31 @@ $(document).ready(function(){
 
     });
     
-    $("button#checkout").click(function(){ 
+    $("button#checkout").click(function () {
       $("button#checkout").hide();
       $("button.addPizza").hide();
       $("button.deliver").slideDown(500);
       $("#price").slideDown(1000);
-      console.log("Your total bills is RWF. "+checkoutTotal);
-      $("#pizzatotal").append("Your bill is RWF. "+checkoutTotal);
+      console.log("Your total bills is RWF. " + checkoutTotal);
+      $("#pizzatotal").append("Your bill is RWF. " + checkoutTotal);
     });
+
+    
+    $("#momo").click(function(){
+      $("#momoForm").show();
+      $(".cardForm").hide();
+ });
+
+ $("#cardpay").click(function(){
+      $(".cardForm").show();
+      $("#momoForm").hide();
+ });
+ $("#momoForm").submit(function(){
+  alert("Your payment is in process. Thank you  for choosing Fresh&Tasty Pizza");
+});
+$(".cardForm").submit(function(){
+  alert("Your payment is in process. Thank you  for choosing Fresh&Tasty Pizza");
+});
 
     $("button.deliver").click(function(){
       $(".pizzatable").hide();
@@ -161,23 +178,6 @@ $(document).ready(function(){
       var deliceryamount= checkoutTotal+2000;
       console.log("You will pay RWF. "+deliceryamount+" on delivery");
       $("#bill").append("Your bill plus delivery fee is: "+deliceryamount);
-    });
-
-
-    $("#momo").click(function () {
-      $("#momoForm").show();
-      $(".cardForm").hide();
-    });
-
-    $("#cardpay").click(function () {
-      $(".cardForm").show();
-      $("#momoForm").hide();
-    });
-    $("#momoForm").submit(function () {
-      alert("Your payment is in process. Thank you  for choosing Fresh&Tasty Pizza");
-    });
-    $(".cardForm").submit(function () {
-      alert("Your payment is in process. Thank you  for choosing Fresh&Tasty Pizza");
     });
 
     $("button#final-order").click(function(event){
@@ -192,19 +192,18 @@ $(document).ready(function(){
       var phone = $("input#phone").val();
       var location = $("input#location").val();
 
-      if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!="" && $("#momoForm :input").val()!=""){
+      if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""&& $("#momoForm :input").val()!=""){
   
         $("#message").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare  "+deliceryamount+" RWF");
         $("#bill").hide();
         $("#message").slideDown(1000);
       }
       else {
-        alert("Kindly choose your payment method");
+        alert("Kindly choose your payment method ");
         $(".delivery").show();
         $("button#final-order").show();
       }
     });
    event.preventDefault();
   });
-
 });
