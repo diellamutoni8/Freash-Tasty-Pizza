@@ -1,21 +1,4 @@
-@keyframes slide{
-    0%{
-    background-image: url("https://cdn.hipwallpaper.com/i/70/10/7u9Zg8.jpg");
-    }
-    20%{
-        background-image: url("https://lh3.googleusercontent.com/proxy/72_fgS7qWvrFIBTLt5sQT097W7gezfrohSxoKbjUPqDnUK11GqRNJAZSe8knWZ7JGqUR8IVGJT_gowWkZwjI-0c9UVtceOxIbWNmsaxN0Y-nLLa4l3H2nWMfrwx8DNL0FcLuAVay");
-    }
-    20.01%{
-        background-image: url("https://eskipaper.com/images/pizza-background-1.jpg");
-    }
-    40%{
-        background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&w=1000&q=80");
-    }
-    40.01%{
 
-    background-image: url("https://images7.alphacoders.com/434/434468.jpg");
-    }
-}
 .div6 h2{
     text-align: center;
     color:whitesmoke;
@@ -407,7 +390,52 @@ span {
   opacity: .5;
   z-index: -1;
 }
-#foot {
-  padding-top: 30px;
-  background-color: rgb(26, 19, 14);
+.check h6{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+#cd ,#momoo {
+    padding-left: 30%;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.cardForm, #momoForm {
+    padding-left:30%;
+    padding-right: 30%;
+}
+#paybtn{
+   padding-left: 30px;
+   padding-right: 30px;
+   background-color: burlywood;
+ 
+}
+.check {
+    text-align: center;
+}
+#momo,#cardpay {
+    background-color:black;
+    color: blanchedalmond;
+    
+}
+@keyframes slide{
+    0%{
+    background-image: url("https://cdn.hipwallpaper.com/i/70/10/7u9Zg8.jpg");
+    }
+    20%{
+
+        background-image: url("https://lh3.googleusercontent.com/proxy/72_fgS7qWvrFIBTLt5sQT097W7gezfrohSxoKbjUPqDnUK11GqRNJAZSe8knWZ7JGqUR8IVGJT_gowWkZwjI-0c9UVtceOxIbWNmsaxN0Y-nLLa4l3H2nWMfrwx8DNL0FcLuAVay");
+    }
+    20.01%{
+        background-image: url("https://eskipaper.com/images/pizza-background-1.jpg");
+    }
+    40%{
+        background-image: url("https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&w=1000&q=80");
+    }
+    40.01%{
+
+    background-image: url("https://images7.alphacoders.com/434/434468.jpg");
+    }
 }

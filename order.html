@@ -108,62 +108,87 @@
                       <div id="about-us">
                           <p>Your order will be processed and delivered within one hour of placing.</p>
                           <p>Incase of any comment of complaint, Please reach out to us.</p>
+                    </div>
+                    <div class="make-choice">
+                        <h2>Your Order</h2>
+                        <div id="orders-lists">
+                            <table class="table table-sm  pizzatable">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Name Of Pizza</th>
+                                        <th scope="col">Size Of Pizza</th>
+                                        <th scope="col">Crust Of Pizza </th>
+                                        <th scope="col">Topping Of Pizza </th>
+                                        <th scope="col">Total Money</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="ordersmade">
+                                    <tr>
+                                        <td id="nameofpizza"></td>
+                                        <td id="sizeofpizza"></td>
+                                        <td id="crustofpizza"></td>
+                                        <td id="toppingofpizza"></td>
+                                        <td id="totalmoney"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p id="pizzatotal"></p>
+                            <p id="bill"></p>
+                            <p id="price">Delivery will be at 2000 RWF</p>
+                            <p id="message"></p>
+                        </div>
+                        <button class="btn btn-dark addPizza">Add Another One</button>
+                        <button class="btn btn-dark" id="checkout">Check The Bill</button>
+                        <button class="btn btn-dark deliver">Your House</button>
+                    </div>
+                    <div class="delivery">
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                                <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                                <input type="text" id="location" class="form-control mb-3"
+                                    placeholder="Location for delivery">
+                                <button class="btn btn-dark" id="final-order">your Location</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                      </div>
-                      <div class="make-choice">
-                          <h2>Your Order</h2>
-                          <div id="orders-lists">
-                              <table class="table table-sm  pizzatable">
-                                  <thead>
-                                      <tr>
-                                          <th scope="col">Name Of Pizza</th>
-                                          <th scope="col">Size Of Pizza</th>
-                                          <th scope="col">Crust Of Pizza </th>
-                                          <th scope="col">Topping Of Pizza </th>
-                                          <th scope="col">Total Money</th>
-                                      </tr>
-                                  </thead>
-                                  <tbody id="ordersmade">
-                                      <tr>
-                                          <td id="nameofpizza"></td>
-                                          <td id="sizeofpizza"></td>
-                                          <td id="crustofpizza"></td>
-                                          <td id="toppingofpizza"></td>
-                                          <td id="totalmoney"></td>
-                                      </tr>
-                                  </tbody>
-                              </table>
-                              <p id="pizzatotal"></p>
-                              <p id="bill"></p>
-                              <p id="price">Delivery will be at 2000 RWF</p>
-                              <p id="message"></p>
-                          </div>
-                          <button class="btn btn-dark addPizza">Add Another One</button>
-                          <button class="btn btn-dark" id="checkout">Check The Bill</button>
-                          <button class="btn btn-dark deliver">Your House</button>
-                      </div>
-                      <div class="delivery">
-                          <form action="">
-                              <div class="form-group">
-                                  <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-                                  <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
-                                  <input type="text" id="location" class="form-control mb-3"
-                                      placeholder="Location for delivery">
-                                  <button class="btn btn-dark" id="final-order">your Location</button>
-                              </div>
-                          </form>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      <script src="javascript/bootstrap.min.js"></script>
-      <script src="javascript/mdb.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-      <script src="javascript/script.js"></script>
-  </div>
+    <div class="container">
+        <div class="check">
+         <h6><strong>Choose your payment method:</strong></h6><br>
+            <pre><input type="button" value="Mobile Money" id="momo">           <input type="button" value="A bank card" id="cardpay"></pre>
+            </div> <br>
+        <form action="" id="momoForm" style="display: none;">
+                <span id="momoo">Fill the form</span> <br>
+                <strong>Your Name:    </strong>
+                <input id="uname" type="text" name="name" value="" required><br> <br>
+                <strong>Phone-number: </strong>
+                <input id="phn" type="tel" name="phone" value="" required> <br><br>
+                <pre>             <input type="submit" value="Pay" id="paybtn"></pre>
+        
+            </form> 
+            <form action="" class="cardForm" style="display: none;">
+                <span id="cd">Fill the form</span> <br>
+                <strong>Names: </strong>
+                <input id="uname" type="text" name="name" value="" required><br><br>
+                <strong>Card-number: </strong>
+                <input pattern="[0-9]{3}-[0-9]{4}-[0-9]{2}" title="example: 234-9876-12" 
+                id="crd" type="text" name="crd" value="" required> <br> <br>
+                <pre>             <input type="submit" value="Pay" id="paybtn"></pre>
+          
+        </form>
+    </div>
+
+    <script src="javascript/bootstrap.min.js"></script>
+    <script src="javascript/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
 
 </html>

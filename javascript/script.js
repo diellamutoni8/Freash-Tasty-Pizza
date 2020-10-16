@@ -163,6 +163,23 @@ $(document).ready(function(){
       $("#bill").append("Your bill plus delivery fee is: "+deliceryamount);
     });
 
+
+    $("#momo").click(function () {
+      $("#momoForm").show();
+      $(".cardForm").hide();
+    });
+
+    $("#cardpay").click(function () {
+      $(".cardForm").show();
+      $("#momoForm").hide();
+    });
+    $("#momoForm").submit(function () {
+      alert("Your payment is in process. Thank you  for choosing Fresh&Tasty Pizza");
+    });
+    $(".cardForm").submit(function () {
+      alert("Your payment is in process. Thank you  for choosing Fresh&Tasty Pizza");
+    });
+
     $("button#final-order").click(function(event){
       event.preventDefault();
 
@@ -174,15 +191,14 @@ $(document).ready(function(){
       var person = $("input#name").val();
       var phone = $("input#phone").val();
       var location = $("input#location").val();
-
       if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!=""){
-
+      if ($("input#name").val() && $("input#phone").val() && $("input#location").val()!="" && $("#momoForm :input").val()!=""){
         $("#message").append(person+", We have recieved your order and it will be delivered to you at "+location+ ". Prepare  "+deliceryamount+" RWF");
         $("#bill").hide();
         $("#message").slideDown(1000);
       }
       else {
-        alert("Insert Your Location");
+        alert("Kindly choose your payment method");
         $(".delivery").show();
         $("button#final-order").show();
       }
