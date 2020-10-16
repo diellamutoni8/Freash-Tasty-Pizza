@@ -3,8 +3,6 @@
     text-align: center;
     color:whitesmoke;
     font-weight: 900;
-
-
   }
   #pizza{
     padding-top: 30px;
@@ -123,20 +121,12 @@
     padding-left: 20%;
   }
   }
-  body{
-
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-
-  }
-
-
 body {
     margin: 0;
     padding: 0;
+}
+.order-overlay h2 {
+  padding-top: 80px;
 }
 
 #nav{
@@ -150,7 +140,8 @@ body {
 .navbar-brand{
     font-weight: bolder;
     font-size: 30px;
-    padding-left: 20px;
+    padding-left: 3%;
+    margin-left: 3%;
     color: white;
     text-decoration: none;
 }
@@ -187,13 +178,13 @@ body {
     background: url("https://cdn.hipwallpaper.com/i/70/10/7u9Zg8.jpg");
     background-position: center;
     background-size: cover;
-   animation: slide 20s infinite; 
+   animation: slide 20s infinite;
     padding-left: 50px;
     padding-right: 50px;
     padding: 220px 0;
     text-align: center;
     z-index: 1;
-  
+
 }
 #main::after{
     content: '';
@@ -262,10 +253,8 @@ body {
     color: blanchedalmond;
     text-align: center;
     padding-left: 10%;
-    padding-top: 3%;
+    padding-top: 1%;
     padding-bottom: 1px;
-    padding-left: 15%;
-    padding-bottom: 100px;
 
 }
 span {
@@ -279,13 +268,12 @@ span {
 #team h2 {
     padding-top: 5%;
     padding-left: 10%;
-    background-color:rgb(20, 11, 5);
     padding-bottom: 2%;
 
 }
 #team h2 {
-    padding-top: 80px;
-    padding-left: 15%;
+    padding-top: 10px;
+    padding-left: 10%;
     font-weight: bolder;
 }
 .col-sm-2 {
@@ -298,15 +286,12 @@ span {
 .col-sm-2 img {
   width:120px;
   border-radius: 50%;
+  border: 2px solid white;
 }
   #vid {
       text-align: center;
       padding-top: 2%;
       background-image: url("https://img5.goodfon.com/wallpaper/nbig/d/64/spetsii-pitstsy-syr-pomidory-cherri-vino-bazilik.jpg");
-    
-
-      /* margin-top: 2%; */
-      background-image: url("https://wallpapercave.com/wp/wc1813154.jpg");
       background-size: cover;
       background-repeat: no-repeat;
   }
@@ -328,14 +313,14 @@ span {
    float: right;
    position: relative;
    padding-right: 100px;
-   
+
    }
    .visitus{
     text-align: left;
-    } 
+    }
    #contact{
     float: left;
-    
+
    }
    .schedule{
    padding-left: 250px;
@@ -347,21 +332,21 @@ span {
    }
 
    #name{
-   width: 300px; 
+   width: 300px;
    height: 30px;
-   border-radius: 6px; 
+   border-radius: 6px;
    border-bottom: 2px solid #c5ecfd;
    }
    #email{
    width: 300px;
    height: 30px;
-   border-radius: 6px; 
+   border-radius: 6px;
    border-bottom: 2px solid #c5ecfd;
    }
    #mssg{
    width: 300px;
    height: 200px;
-   border-radius: 6px; 
+   border-radius: 6px;
    border-bottom: 2px solid #c5ecfd;
    }
    #bbt{
@@ -405,7 +390,6 @@ span {
   opacity: .5;
   z-index: -1;
 }
-
 .check h6{
   text-align: center;
   font-size: 35px;
@@ -442,12 +426,6 @@ span {
     }
     20%{
 
-
-footer {
-  background-color: rgb(26, 19, 14);
-}
-
-
         background-image: url("https://lh3.googleusercontent.com/proxy/72_fgS7qWvrFIBTLt5sQT097W7gezfrohSxoKbjUPqDnUK11GqRNJAZSe8knWZ7JGqUR8IVGJT_gowWkZwjI-0c9UVtceOxIbWNmsaxN0Y-nLLa4l3H2nWMfrwx8DNL0FcLuAVay");
     }
     20.01%{
@@ -461,5 +439,3 @@ footer {
     background-image: url("https://images7.alphacoders.com/434/434468.jpg");
     }
 }
-
-
